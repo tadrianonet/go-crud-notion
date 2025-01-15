@@ -13,18 +13,18 @@ GET http://localhost:8080/users/getall
 
 
 ### Buscar um usuário pelo ID
-GET http://localhost:8080/users/get?id=75fb8b4b-efbc-40de-a8bc-14f6185b29fa
+GET http://localhost:8080/users/get?id=29a54a17-f3e1-4730-8c4b-ab045cb6484a
 
 ### Atualizar usuario
 PUT http://localhost:8080/users/update
 Content-Type: application/json
 
 {
-  "id":"17bbec2e-5490-81ed-ae70-d3f8ecc14c06",
+  "id":"17cbec2e-5490-8114-a7e3-ffbb52396b2e",
   "name": "Agnes Fernandes Adriano",
   "email": "thiago.adriano@example.com",
   "telefone": "11999999999"
 }
 
 ### Deletar um usuário pelo ID
-DELETE  http://localhost:8080/users/delete?id=17bbec2e-5490-81ed-ae70-d3f8ecc14c06
+DELETE  http://localhost:8080/users/delete?id=17cbec2e-5490-8114-a7e3-ffbb52396b2e

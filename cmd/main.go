@@ -1,9 +1,9 @@
 package main
 
 import (
-    "go-crud-notion/internal/delivery"
+	"go-crud-notion/internal/delivery"
 )
 
 func main() {
-  webapp.Start()
+	webapp.Start()
 }
