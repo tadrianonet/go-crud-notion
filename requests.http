@@ -1,0 +1,30 @@
+### Criar um novo usuário
+POST http://localhost:8080/users
+Content-Type: application/json
+
+{
+  "name": "Thiago S Adriano",
+  "email": "thiago.adriano@example.com",
+  "telefone": "11999999999"
+}
+
+### Buscar todos usuarios
+GET http://localhost:8080/users/getall
+
+
+### Buscar um usuário pelo ID
+GET http://localhost:8080/users/get?id=75fb8b4b-efbc-40de-a8bc-14f6185b29fa
+
+### Atualizar usuario
+PUT http://localhost:8080/users/update
+Content-Type: application/json
+
+{
+  "id":"17bbec2e-5490-81ed-ae70-d3f8ecc14c06",
+  "name": "Agnes Fernandes Adriano",
+  "email": "thiago.adriano@example.com",
+  "telefone": "11999999999"
+}
+
+### Deletar um usuário pelo ID
+DELETE  http://localhost:8080/users/delete?id=17bbec2e-5490-81ed-ae70-d3f8ecc14c06
